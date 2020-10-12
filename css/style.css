@@ -295,6 +295,23 @@ body {
 .b6_icon a {
   color: #fcc302;
   font-size: 30px;
+  transition: all .2s linear;
+}
+
+.b6_icon_t:hover {
+  color:  #00bec9 !important;
+}
+
+.b6_icon_f:hover {
+  color:  #00bec9 !important;
+}
+
+.b6_icon_i:hover {
+  color:  #ff00aa !important;
+}
+
+.b6_icon_w:hover {
+  color:  #00a516 !important;
 }
 
 /* block 7 */
