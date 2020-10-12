@@ -6,6 +6,12 @@ body {
   background-color: #fcc302;
 }
 
+/* block-1 */
+
+.b1_container {
+  height: 100vh;
+}
+
 .back_nav {
   background-color: #daac00;
 }
@@ -13,6 +19,11 @@ body {
 .nav_link {
   font-family: "Poppins";
   font-size: 28px;
+  transition: color .2s linear;
+}
+
+.nav_link:hover{
+  color: #333333 !important;
 }
 
 .button_search {
@@ -22,12 +33,6 @@ body {
 
 .input_search {
   background-color: #fcc302;
-}
-
-/* block-1 */
-
-.menu a:hover{
-  color: #313243;
 }
 
 .b1_title_text {
@@ -52,9 +57,9 @@ body {
   font-size: 20px;
   font-weight: 400;
   width: 150px;
-  border: 3px solid #00bec9;
-  padding: 14px;
-  transition: color .2s linear;
+  
+  padding: 16px;
+  transition: all .2s linear;
 }
 
 .b1_button_1 a {
@@ -62,15 +67,16 @@ body {
   text-decoration: none;
   width: 114px;
   height: 17px;
+  transition: all .2s linear;
+}
+
+.b1_button_1:hover {
+  box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.73);
 
 }
 
-.test_01 {
-  transition: color .2s linear;
-}
-
-.test_01:hover {
-  color: black;
+.b1_button_1:hover> a {
+  color: #333333 !important;
 }
 
 .b1_button_2 {
@@ -83,11 +89,21 @@ body {
   width: 150px;
   height: 67px;
   padding: 14px;
+  transition: all .2s linear;
 }
 
 .b1_button_2 a {
   color: #ffffff;
   text-decoration: none;
+  transition: all .2s linear;
+}
+
+.b1_button_2:hover {
+  border: 3px solid #333333;
+}
+
+.b1_button_2:hover>a {
+  color: #333333 !important;
 }
 
 .img_dog {
@@ -125,13 +141,23 @@ body {
   border-radius: 7px;
   background-color: #fcc302;
   width: 150px;
-  border: 3px solid #fcc302;
   padding: 14px;
+  transition: all .2s linear;
+  text-align: center;
 }
 
 .b2_button a {
   color: #ffffff;
   text-decoration: none;
+  transition: all .2s linear;
+}
+
+.b2_button:hover {
+  box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.73);
+}
+
+.b2_button:hover>a {
+  color: #333333 !important;
 }
 
 .b2_video {
@@ -171,6 +197,7 @@ body {
 .b3_card img {
   border: 6px solid #ffffff;
   margin-bottom: 45px;
+  transition: all .2s linear;
 }
 
 .b3_card h3 {
@@ -183,6 +210,11 @@ body {
   font-family: "Poppins";
   font-size: 24px;
   font-weight: 300;
+}
+
+.b3_card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -213,9 +245,9 @@ body {
   font-weight: 400;
   width: 191px;
   height: 58px;
-  border: 3px solid #00bec9;
-  padding: 8px;
+  padding: 10px;
   margin-top: 26px;
+  transition: all .2s linear;
 }
 
 .b5_button a {
@@ -223,10 +255,27 @@ body {
   text-decoration: none;
   width: 114px;
   height: 17px;
+  transition: all .2s linear;
+}
 
+.b5_button:hover {
+  box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.73);
+}
+
+.b5_button:hover>a {
+  color: #333333 !important;
 }
 
 /* block 6 */
+
+.b6_card img {
+  transition: all .2s linear;
+}
+
+.b6_card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
+}
 
 .b6_card h3 {
   font-family: "Poppins";
@@ -241,6 +290,11 @@ body {
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.b6_icon a {
+  color: #fcc302;
+  font-size: 30px;
 }
 
 /* block 7 */
@@ -272,6 +326,12 @@ body {
 
 .b8_card {
   border: 2px solid #d6d6d6;
+  transition: all .2s linear;
+}
+
+.b8_card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
 }
 
 .b8_text a {
@@ -289,7 +349,12 @@ body {
   text-decoration: none;
   font-family: "Poppins";
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 200;
+  transition: all .2s linear;
+}
+
+.f_text a:hover {
+  color: #fcc302 !important;
 }
 
 .f_text_3 {
@@ -301,23 +366,23 @@ body {
 .f_text_p {
   font-family: "Poppins";
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 #f_send {
   color: #ffffff;
   text-decoration: none;
   border-radius: 29px;
-  background-color: #fc5c5c;
+  background-color:  #00bec9;
   text-transform: uppercase;
   font-family: "Poppins" ,Bold;
   font-size: 20px;
   font-weight: 400;
   width: 191px;
   height: 58px;
-  border: 3px solid #fc5c5c;
-  padding: 9px;
+  padding: 13px;
   margin: 30px auto;
+  text-align: center;
 }
 
 .f_search {
@@ -330,4 +395,20 @@ body {
   background-color: #00bec9;
   width: 138px;
   height: 87px;
+}
+
+.f_button i {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.f_author a {
+  font-weight: 200;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+.f_author a:hover {
+  color:#fcc302 !important;
 }
