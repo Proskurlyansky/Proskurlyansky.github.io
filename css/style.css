@@ -2,6 +2,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 .back_color {
   background-color: #fcc302;
 }
@@ -116,6 +118,10 @@ body {
 .b2_container {
   padding: 10% 0;
   
+}
+
+.img {
+  width: 100%;
 }
 
 .b2_title_text {
@@ -417,6 +423,12 @@ body {
 .f_button i {
   color: #ffffff;
   font-size: 30px;
+}
+
+.f_icon a {
+  color: #ffffff;
+  font-size: 46px;
+  transition: all .2s linear;
 }
 
 .f_author a {
