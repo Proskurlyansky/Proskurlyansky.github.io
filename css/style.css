@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -11,15 +11,15 @@ body {
 /* block-1 */
 
 .b1_container {
-  height: 100vh;
+  padding: 5% 0;
 }
+
 
 .back_nav {
   background-color: #daac00;
 }
 
 .nav_link {
-  font-family: "Poppins";
   font-size: 28px;
   transition: color .2s linear;
 }
@@ -37,17 +37,14 @@ body {
   background-color: #fcc302;
 }
 
-.b1_title_text {
+.b1_title_text h1 {
   color: #ffffff;
-  font-family: "Poppins - Semi Bold";
   font-size: 64px;
-  font-weight: 600;
-  letter-spacing: 0.67px;
+  line-height: 1;
 }
 
 .b1_text {
   color: #ffffff;
-  font-family: 'Poppins';
   font-size: 28px;
   font-weight: 300;
 }
@@ -55,12 +52,11 @@ body {
 .b1_button_1 {
   border-radius: 7px;
   background-color: #00bec9;
-  font-family: "Poppins - Semi Bold";
   font-size: 20px;
   font-weight: 400;
   width: 150px;
   
-  padding: 16px;
+  padding: 17px;
   transition: all .2s linear;
 }
 
@@ -73,7 +69,7 @@ body {
 }
 
 .b1_button_1:hover {
-  box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.73);
+  box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.73);
 
 }
 
@@ -82,7 +78,6 @@ body {
 }
 
 .b1_button_2 {
-  font-family: "Poppins - Semi Bold";
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.21px; 
@@ -108,10 +103,6 @@ body {
   color: #333333 !important;
 }
 
-.img_dog {
-  padding: 15px;
-}
-
 
 /* block-2 */
 
@@ -124,23 +115,20 @@ body {
   width: 100%;
 }
 
-.b2_title_text {
-  color: #313243;
-  font-family: "Poppins - Semi Bold";
+.b2_title_text h3{
+  color: black;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .b2_text {
-  color: #313243;
-  font-family: "Poppins";
+  color: black;
   font-size: 28px;
   font-weight: 400;
-  letter-spacing: 0.29px;
 }
 
 .b2_button {
-  font-family: "Poppins - Semi Bold";
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0.21px; 
@@ -159,7 +147,7 @@ body {
 }
 
 .b2_button:hover {
-  box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.73);
+  box-shadow: 0px 0px 20px -4px rgba(0,0,0,0.73);
 }
 
 .b2_button:hover>a {
@@ -183,20 +171,16 @@ body {
 /* block 3 */
 
 .b3_container {
-  padding: 96px 0;
+  padding: 5% 0;
 }
 
 .b3_title {
-  font-family: "Poppins";
   font-size: 72px;
-  font-weight: 700;
   padding-bottom: 45px;
 }
 
 .b3_text {
-  font-family: "Poppins";
   font-size: 32px;
-  font-weight: 400;
   padding-bottom: 94px;
 }
 
@@ -207,22 +191,23 @@ body {
 }
 
 .b3_card h3 {
-  font-family: "Poppins";
   font-size: 36px;
   font-weight: 600;
 }
 
 .b3_card p {
-  font-family: "Poppins";
   font-size: 24px;
   font-weight: 300;
 }
 
-.b3_card img:hover {
+.image:hover {
   transform: scale(1.05);
   box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
 }
 
+/* .img {
+  width: 100%;
+} */
 
 /* block 4  */
 
@@ -246,7 +231,6 @@ body {
 .b5_button {
   border-radius: 29px;
   background-color: #00bec9;
-  font-family: "Poppins - Semi Bold";
   font-size: 24px;
   font-weight: 400;
   width: 191px;
@@ -278,13 +262,7 @@ body {
   transition: all .2s linear;
 }
 
-.b6_card img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
-}
-
 .b6_card h3 {
-  font-family: "Poppins";
   font-size: 28px;
   font-weight: 700;
   margin-top: 35px;
@@ -292,7 +270,6 @@ body {
 }
 
 .b6_card p {
-  font-family: "Poppins";
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
@@ -333,14 +310,12 @@ body {
 }
 
 .b7_card p {
-  font-family: "Poppins";
   padding-top: 55px;
   font-size: 40px;
   font-weight: 500;
 }
 
 .b7_card h3 {
-  font-family: "Poppins";
   font-size: 36px;
   font-weight: 700;
 }
@@ -357,9 +332,19 @@ body {
   box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
 }
 
-.b8_text a {
-  padding-bottom: 40px;
+
+/* .b8_read_More {
+  padding: 5px;
+  color: #fcc302;
+  border: 2px solid #fcc302;
+  text-decoration: none !important;
+  transition: all .2s linear;
 }
+
+.b8_read_More:hover {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+} */
 
 /* footer */
 
@@ -370,7 +355,6 @@ body {
 .f_text a {
   color: #ffffff;
   text-decoration: none;
-  font-family: "Poppins";
   font-size: 24px;
   font-weight: 200;
   transition: all .2s linear;
@@ -381,13 +365,11 @@ body {
 }
 
 .f_text_3 {
-  font-family: "Poppins - Semi Bold";
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .f_text_p {
-  font-family: "Poppins";
   font-size: 24px;
   font-weight: 200;
 }
@@ -398,7 +380,6 @@ body {
   border-radius: 29px;
   background-color:  #00bec9;
   text-transform: uppercase;
-  font-family: "Poppins" ,Bold;
   font-size: 20px;
   font-weight: 400;
   width: 191px;
