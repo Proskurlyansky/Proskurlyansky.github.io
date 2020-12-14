@@ -1,2 +1,2 @@
-# Proskurlyansky.github.io
-Дипломный проект НИИТ
+# product-list
+This is my product list
